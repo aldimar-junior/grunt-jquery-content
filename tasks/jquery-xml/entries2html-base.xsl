@@ -671,7 +671,7 @@
 
 		<xsl:if test="$number-examples &gt; 1">
 			<h3>
-				Example Nº <xsl:value-of select="position()"/>
+				Example <xsl:value-of select="position()"/>
 			</h3>
 		</xsl:if>
 		<p>
